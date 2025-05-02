@@ -386,3 +386,6 @@ history/
 # JetBrains Rider
 *.sln.iml
 /.vs/DependaTest
+.vs/ProjectEvaluation/dependatest.metadata.v9.bin
+.vs/ProjectEvaluation/dependatest.projects.v9.bin
+.vs/ProjectEvaluation/dependatest.strings.v9.bin

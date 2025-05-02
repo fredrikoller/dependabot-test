@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hbQJXfRavF0=",
+  "success": true,
+  "projectFilePath": "C:\\Development\\github\\dependabot-test\\DependaTest\\DependaTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FredrikÖller\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\FredrikÖller\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

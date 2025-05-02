@@ -389,6 +389,5 @@ history/
 .vs/ProjectEvaluation/dependatest.metadata.v9.bin
 .vs/ProjectEvaluation/dependatest.projects.v9.bin
 .vs/ProjectEvaluation/dependatest.strings.v9.bin
-DependaTest/obj/DependaTest.csproj.nuget.dgspec.json
-DependaTest/obj/project.assets.json
-DependaTest/obj/project.nuget.cache
+
+DependaTest/obj/*

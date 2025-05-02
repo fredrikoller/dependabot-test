@@ -13,7 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run Dependabot
-        uses: dependabot/fetch-metadata@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          directory: ../
+          node-version: '22' # Specify the Node.js version you want to use
+
+      - name: Install dependabot
+        run: npm install -g @dependabot/dependatbot-core
+
+      - name: Run Dependabot
+        run: dependabot-core update --config-file ../dependabot.yml
